@@ -46,10 +46,11 @@ header a {
     color: var(--secondary)
 }
 
-header nav u1 {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
@@ -58,8 +59,9 @@ header nav {
 }
 
 header nav ul li a {
-    padding: 10px;
+    padding: 10px 5px 4px 5px;
     font-size: 20px;
+    border-bottom: 3px solid var(--secondary);
     margin: 20px 20px 0 0;
     font-weight: bold;
 }
@@ -118,7 +120,7 @@ header nav ul li a:hover {
 
 
 /* about me section styling */
-.about-me {
+.about-me h2 {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
