@@ -130,7 +130,7 @@ header nav ul li a:hover {
 .about-me p {
     font-size: 20px;
     padding: 0 30px;
-    line-height: 1.6;
+    line-height: 1.5;
     width: 90%;
 }
 
@@ -223,14 +223,14 @@ footer {
 }
 
 .content-wrapper {
-    width: 80px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#my-contact-information {
-    width: 105%;
+.my-contact-information {
+    width: 110%;
 }
 
 footer ul {
