@@ -43,7 +43,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--secondary)
+    color: var(--secondary);
 }
 
 header nav ul {
@@ -59,7 +59,7 @@ header nav {
 }
 
 header nav ul li a {
-    padding: 10px 5px 4px 5px;
+    padding: 10px 5px;
     font-size: 20px;
     border-bottom: 3px solid var(--secondary);
     margin: 20px 20px 0 0;
@@ -77,7 +77,7 @@ header nav ul li a:hover {
 
 /* start of hero styling */
 .hero {
-    background-image: url("a painted wall.jperg");
+    background-image: url("../images/istockphoto-1137996207-612x612.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -136,26 +136,26 @@ header nav ul li a:hover {
 
 
 /* start of My Projects styling */
-.my-work {
+.my-projects {
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
     background-color: var(--primary);
 }
 
-.my-work h2 {
+.my-projects h2 {
     color: var(--secondary);
 }
 
 .projects-grid-wrapper {
     width: 80%;
-    height: 500px;
+    height: 800px;
     display: flex;
     justify-content: center;
 }
 
 .projects-grid {
-    width: 70%;
+    width: 73%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -181,35 +181,35 @@ header nav ul li a:hover {
 .mock-website-frontend-for-an-ad-agency {
     grid-column: 1/2;
     grid-row: span 2;
-    background-image: url("filler atm");
+    background-image: url("../images/pngtree-old-computers-sat-in-a-room-picture-image_2659115.jpg");
 }
 
 .filler-for-now {
-    background-image: url("filler atm 2");
+    background-image: url("../images/carsshonk.jpg");
     background-position: 50% 15%;
 }
 
 .determine-if-having-eggs {
-    background-image: url("filler atm 3");
+    background-image: url("../images/eggph.jpg");
     background-position: 60% 50%;
 }
 
 .current-moon-temperature {
-    background-image: url("filler atm 4");
+    background-image: url("../images/7jxwc8dNejsvowwWTGfG2P-1200-80.jpg");
     grid-column: 1/2;
     grid-row: span 2; 
 }
 
 .assign-a-random-password {
-    background-image: url("filler atm 5");
+    background-image: url("../images/binary_14.jpg");
 }
 
 .random-cat-photo-generator {
-    background-image: url("filler atm 6");
+    background-image: url("../images/istockphoto-642094572-170667a.jpg");
 }
 
 .project-label {
-    background-color:#81848f;;
+    background-color:#6b4230;;
     color: var(--primary);
     padding: 10px;
 }
@@ -230,28 +230,30 @@ footer {
 }
 
 #my-contact-information {
-    width: 60%;
+    width: 105%;
 }
 
 footer ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
-    font-size: 30px;
+    width: 100%;
+    padding: 0;
+    font-size: 25px;
     font-weight: bolder;
 }
 
 footer ul li {
-
+    margin: 10px 20px;
     font-weight: bold;
 }
 
 footer ul li a{
     text-decoration: none;
     color: var(--primary);
-    padding: 8px;
+    padding: 5px;
     font-weight: bold;
 }
 
